@@ -1,5 +1,5 @@
 #include <CustomStepper.h>
-// Quatro primeiros paremetros definem os pinos. Os outros são opcionais de definem a ordem de acionamento das bobinas, passos por rotação, rotações por minuto e sentido da rotação
+//  Quatro primeiros paremetros definem os pinos. Os outros são opcionais de definem a ordem de acionamento das bobinas, passos por rotação, rotações por minuto e sentido da rotação
 CustomStepper stepper(2, 3, 4, 5, (byte[]){8, B1000, B1100, B0100, B0110, B0010, B0011, B0001, B1001}, 4075, 10, CCW); // declaração de objeto
 boolean rotate1 = false;
 boolean rotatedeg = false;
